@@ -1,5 +1,7 @@
+import java.util.Date;
+
 public interface clientDao {
-    public boolean createClient(int id, String nom);
+    public boolean createClient(int id, String nom, Date date_premier_achat);
     public boolean createClient(client nv_client);
     public boolean selectClient(int id);
     public boolean selectClient(String nom);
