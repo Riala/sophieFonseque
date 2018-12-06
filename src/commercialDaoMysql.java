@@ -58,7 +58,7 @@ public class commercialDaoMysql {
     }
     public boolean selectCommercial(int id){
         try {
-            String query = "SELECT * FROM commercial WHERE id_commerical = " + id;
+            String query = "SELECT * FROM commercial WHERE id_commercial = " + id;
             conn = connectionFactory.getConnection();
             ptmt = conn.prepareStatement(query);
             ResultSet rs = ptmt.executeQuery(query);
@@ -86,7 +86,7 @@ public class commercialDaoMysql {
     }
     public boolean selectCommercial(commercial cur_commercial){
         try {
-            String query = "SELECT * FROM commercial WHERE id_commerical = " + cur_commercial.getId_commercial();
+            String query = "SELECT * FROM commercial WHERE id_commercial = " + cur_commercial.getId_commercial();
             conn = connectionFactory.getConnection();
             ptmt = conn.prepareStatement(query);
             ResultSet rs = ptmt.executeQuery(query);
