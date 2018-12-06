@@ -11,7 +11,7 @@ public class plat {
     private int lot_de_fabrication;
     private String nom;
 
-    public plat(int id_plat, int id_recette, int id_stockplat, int portion, double cout_revient, double prix_vente, Date date_de_limite_conso, Date date_de_production, int lot_de_fabrication, String nom) {
+    public plat(int id_plat, String nom, int portion, double prix_vente, Date date_de_production, Date date_de_limite_conso, int lot_de_fabrication, double cout_revient, int id_stockplat,int id_recette) {
         this.id_plat = id_plat;
         this.id_recette = id_recette;
         this.id_stockplat = id_stockplat;
