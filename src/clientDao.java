@@ -5,6 +5,7 @@ public interface clientDao {
     public boolean createClient(client nv_client);
     public boolean selectClient(int id);
     public boolean selectClient(String nom);
+    public boolean selectClient(Date d);
     public boolean selectClient(client cur_client);
     public boolean updateClient (int id, String nom);
     public boolean updateClient(client cur_client);
