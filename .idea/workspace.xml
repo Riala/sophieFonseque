@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d3e2b76-30a2-4fb5-b186-0ba4117cdc0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stock_plat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stock_platDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stock_platDaoMysql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composerDaoMysql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facturerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facturerDaoMysql.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,36 +55,36 @@
     <session id="219580128">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="23" />
+          <entry key="java" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4433" />
+          <entry key="java" value="5477" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4433" />
+          <entry key="JAVA" value="5477" />
         </counts>
       </usages-collector>
     </session>
@@ -89,138 +92,68 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/platDaoMysql.java">
+        <entry file="file://$PROJECT_DIR$/src/facturerDaoMysql.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="223" column="9" selection-start-line="223" selection-start-column="9" selection-end-line="223" selection-end-column="9" />
+            <state relative-caret-position="986">
+              <caret line="142" column="38" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#createPlat#0;class#platDaoMysql#0" />
-                <element signature="method#createPlat#1;class#platDaoMysql#0" />
-                <element signature="method#selectPlat#0;class#platDaoMysql#0" />
-                <element signature="method#selectPlat#1;class#platDaoMysql#0" />
-                <element signature="method#updatePlat#0;class#platDaoMysql#0" />
-                <element signature="method#updatePlat#1;class#platDaoMysql#0" />
+                <element signature="method#createFacturer#0;class#facturerDaoMysql#0" />
+                <element signature="method#createFacturer#1;class#facturerDaoMysql#0" />
+                <element signature="method#selectFacturer#1;class#facturerDaoMysql#0" />
+                <element signature="method#updateFacturer#1;class#facturerDaoMysql#0" />
+                <element signature="method#deleteFacturer#1;class#facturerDaoMysql#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stock_ingredient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stock_ingredientDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="8" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stock_ingredientDaoMysql.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="182" column="9" lean-forward="true" selection-start-line="163" selection-start-column="8" selection-end-line="182" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#createStockIngredient#0;class#stock_ingredientDaoMysql#0" />
-                <element signature="method#createStockIngredient#1;class#stock_ingredientDaoMysql#0" />
-                <element signature="method#selectStockIngredient#0;class#stock_ingredientDaoMysql#0" />
-                <element signature="method#selectStockIngredient#1;class#stock_ingredientDaoMysql#0" />
-                <element signature="method#updateStockIngredient#0;class#stock_ingredientDaoMysql#0" />
-                <element signature="method#updateStockIngredient#1;class#stock_ingredientDaoMysql#0" />
-                <element signature="method#deleteStockIngredient#1;class#stock_ingredientDaoMysql#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stock_plat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stock_platDao.java">
+        <entry file="file://$PROJECT_DIR$/src/composer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
+              <caret column="21" selection-start-column="13" selection-end-column="21" />
+              <folding>
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/composerDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/stock_platDaoMysql.java">
+        <entry file="file://$PROJECT_DIR$/src/composerDaoMysql.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="113" column="96" selection-start-line="113" selection-start-column="96" selection-end-line="113" selection-end-column="96" />
+            <state relative-caret-position="1408">
+              <caret line="200" column="35" lean-forward="true" selection-start-line="200" selection-start-column="35" selection-end-line="200" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#createStockPlat#0;class#stock_platDaoMysql#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/recetteDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="8" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ingredientDaoMysql.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="189" column="9" selection-start-line="170" selection-start-column="8" selection-end-line="189" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#createIngredient#0;class#ingredientDaoMysql#0" />
-                <element signature="method#createIngredient#1;class#ingredientDaoMysql#0" />
-                <element signature="method#selectIngredient#0;class#ingredientDaoMysql#0" />
-                <element signature="method#selectIngredient#1;class#ingredientDaoMysql#0" />
-                <element signature="method#updateIngredient#0;class#ingredientDaoMysql#0" />
-                <element signature="method#updateIngredient#1;class#ingredientDaoMysql#0" />
-                <element signature="method#deleteIngredient#1;class#ingredientDaoMysql#0" />
+                <element signature="method#createComposer#0;class#composerDaoMysql#0" />
+                <element signature="method#createComposer#1;class#composerDaoMysql#0" />
+                <element signature="method#selectComposer#0;class#composerDaoMysql#0" />
               </folding>
             </state>
           </provider>
@@ -231,6 +164,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -242,8 +176,9 @@
       <find>Fournisseur</find>
       <find>client</find>
       <find>float</find>
-      <find>ingredient</find>
       <find>PLat</find>
+      <find>ingredient</find>
+      <find>facturer</find>
     </findStrings>
     <replaceStrings>
       <replace>commercial</replace>
@@ -254,6 +189,8 @@
       <replace>plat</replace>
       <replace>stock_ingredient</replace>
       <replace>Plat</replace>
+      <replace>facturer</replace>
+      <replace>composer</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -289,6 +226,12 @@
         <option value="$PROJECT_DIR$/src/stock_plat.java" />
         <option value="$PROJECT_DIR$/src/stock_platDao.java" />
         <option value="$PROJECT_DIR$/src/stock_platDaoMysql.java" />
+        <option value="$PROJECT_DIR$/src/vendre.java" />
+        <option value="$PROJECT_DIR$/src/facturerDao.java" />
+        <option value="$PROJECT_DIR$/src/facturerDaoMysql.java" />
+        <option value="$PROJECT_DIR$/src/composer.java" />
+        <option value="$PROJECT_DIR$/src/composerDao.java" />
+        <option value="$PROJECT_DIR$/src/composerDaoMysql.java" />
       </list>
     </option>
   </component>
@@ -306,7 +249,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="1329" />
+    <option name="width" value="1330" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -364,8 +307,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -393,7 +336,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544182686280" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544195577753" />
+    <property name="last_opened_file_path" value="E:/Source projet java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -454,18 +398,18 @@
       <workItem from="1544126158754" duration="7000" />
       <workItem from="1544126249532" duration="2684000" />
       <workItem from="1544171936940" duration="2189000" />
-      <workItem from="1544181979794" duration="986000" />
+      <workItem from="1544181979794" duration="8427000" />
+      <workItem from="1544195633635" duration="1866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27259000" />
+    <option name="totallyTimeSpent" value="36566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2080537" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21073826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -509,14 +453,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ingredientDao.java</url>
-          <line>1</line>
-          <properties class="ingredientDao" method="createIngredient">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/clientDaoMysql.java</url>
           <line>240</line>
@@ -572,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clientDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fournisseurDaoMysql.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -614,6 +543,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="201" selection-start-line="201" selection-end-line="201" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#createRecette#0;class#recetteDaoMysql#0" />
+            <element signature="method#createRecette#1;class#recetteDaoMysql#0" />
+            <element signature="method#selectRecette#0;class#recetteDaoMysql#0" />
+            <element signature="method#selectRecette#1;class#recetteDaoMysql#0" />
+            <element signature="method#updateRecette#0;class#recetteDaoMysql#0" />
+            <element signature="method#updateRecette#1;class#recetteDaoMysql#0" />
+            <element signature="method#deleteRecette#0;class#recetteDaoMysql#0" />
+            <element signature="method#deleteRecette#1;class#recetteDaoMysql#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -635,6 +575,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -642,6 +591,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+          <folding>
+            <element signature="method#createCommercial#0;class#commercialDaoMysql#0" />
+            <element signature="method#createCommercial#1;class#commercialDaoMysql#0" />
+            <element signature="method#selectCommercial#0;class#commercialDaoMysql#0" />
+            <element signature="method#selectCommercial#1;class#commercialDaoMysql#0" />
+            <element signature="method#updateCommercial#0;class#commercialDaoMysql#0" />
+            <element signature="method#updateCommercial#1;class#commercialDaoMysql#0" />
+            <element signature="method#deleteCommercial#0;class#commercialDaoMysql#0" />
+            <element signature="method#deleteCommercial#1;class#commercialDaoMysql#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -663,13 +622,6 @@
             <element signature="method#deleteClient#2;class#clientDaoMysql#0" />
             <element signature="method#deleteClient#4;class#clientDaoMysql#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ingredientDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="8" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -717,20 +669,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ingredientDaoMysql.java">
+    <entry file="file://$PROJECT_DIR$/src/facturer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="189" column="9" selection-start-line="170" selection-start-column="8" selection-end-line="189" selection-end-column="9" />
+        <state relative-caret-position="136">
+          <caret line="8" column="120" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="120" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#createIngredient#0;class#ingredientDaoMysql#0" />
-            <element signature="method#createIngredient#1;class#ingredientDaoMysql#0" />
-            <element signature="method#selectIngredient#0;class#ingredientDaoMysql#0" />
-            <element signature="method#selectIngredient#1;class#ingredientDaoMysql#0" />
-            <element signature="method#updateIngredient#0;class#ingredientDaoMysql#0" />
-            <element signature="method#updateIngredient#1;class#ingredientDaoMysql#0" />
-            <element signature="method#deleteIngredient#1;class#ingredientDaoMysql#0" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ingredientDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stock_platDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -758,10 +740,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stock_platDao.java">
+    <entry file="file://$PROJECT_DIR$/src/stock_platDaoMysql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="221">
+          <caret line="111" column="57" selection-start-line="111" selection-start-column="57" selection-end-line="111" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#createStockPlat#0;class#stock_platDaoMysql#0" />
+            <element signature="method#createStockPlat#1;class#stock_platDaoMysql#0" />
+            <element signature="method#selectStockPlat#0;class#stock_platDaoMysql#0" />
+            <element signature="method#selectStockPlat#1;class#stock_platDaoMysql#0" />
+            <element signature="method#updateStockPlat#0;class#stock_platDaoMysql#0" />
+            <element signature="method#updateStockPlat#1;class#stock_platDaoMysql#0" />
+            <element signature="method#deleteStockPlat#0;class#stock_platDaoMysql#0" />
+            <element signature="method#deleteStockPlat#1;class#stock_platDaoMysql#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -782,13 +775,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stock_platDaoMysql.java">
+    <entry file="file://$PROJECT_DIR$/src/clientDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="113" column="96" selection-start-line="113" selection-start-column="96" selection-end-line="113" selection-end-column="96" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/facturerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ingredientDaoMysql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#createStockPlat#0;class#stock_platDaoMysql#0" />
+            <element signature="method#createIngredient#0;class#ingredientDaoMysql#0" />
+            <element signature="method#createIngredient#1;class#ingredientDaoMysql#0" />
+            <element signature="method#selectIngredient#0;class#ingredientDaoMysql#0" />
+            <element signature="method#selectIngredient#1;class#ingredientDaoMysql#0" />
+            <element signature="method#updateIngredient#0;class#ingredientDaoMysql#0" />
+            <element signature="method#updateIngredient#1;class#ingredientDaoMysql#0" />
+            <element signature="method#deleteIngredient#1;class#ingredientDaoMysql#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/facturerDaoMysql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="142" column="38" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#createFacturer#0;class#facturerDaoMysql#0" />
+            <element signature="method#createFacturer#1;class#facturerDaoMysql#0" />
+            <element signature="method#selectFacturer#1;class#facturerDaoMysql#0" />
+            <element signature="method#updateFacturer#1;class#facturerDaoMysql#0" />
+            <element signature="method#deleteFacturer#1;class#facturerDaoMysql#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/composer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/composerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/composerDaoMysql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="200" column="35" lean-forward="true" selection-start-line="200" selection-start-column="35" selection-end-line="200" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#createComposer#0;class#composerDaoMysql#0" />
+            <element signature="method#createComposer#1;class#composerDaoMysql#0" />
+            <element signature="method#selectComposer#0;class#composerDaoMysql#0" />
           </folding>
         </state>
       </provider>
