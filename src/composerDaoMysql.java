@@ -15,7 +15,7 @@ public class composerDaoMysql {
             ptmt.setInt(1, id_recette);
             ptmt.setDouble(2, id_ingredient);
             ptmt.setDouble(3, quantite);
-            ptmt.setInt(4, unite);
+            ptmt.setString(4, unite);
             ptmt.executeUpdate();
             return true;
         } catch (SQLException e)  {
@@ -70,7 +70,7 @@ public class composerDaoMysql {
                 int id_i  = rs.getInt("montant");
                 double qte_c = rs.getDouble("cout_livraison");
                 String unit_c = rs.getString("id_commercial");
-                System.out.println("\n Numéro recette : " + id_r + "\n Numéro ingrédient : "	+  + "\n Coût livraison : "	+ coutLivr_f+ "\n Numéro commercial : "	+ id_com+ "\n Numéro client : "	+ id_cli+ "\n Numéro plat : "	+ id_plat);
+                System.out.println("\n Numéro recette : " + id_r + "\n Numéro ingrédient : "	+ id_i + "\n Quantité : "	+ qte_c + " "	+ unit_c + "\n");
             }
             return true;
         } catch (SQLException e)  {
@@ -88,7 +88,35 @@ public class composerDaoMysql {
             }
         }
     }
-    public boolean selectComposer(composer cur_composer);
+    public boolean selectComposer(composer cur_composer){
+            try {
+                String query = "SELECT * FROM composer WHERE id_recette = " + cur_composer.getId_recette();
+                conn = connectionFactory.getConnection();
+                ptmt = conn.prepareStatement(query);
+                ResultSet rs = ptmt.executeQuery(query);
+                while(rs.next()) {
+                    int id_r = rs.getInt("id_facture");
+                    int id_i  = rs.getInt("montant");
+                    double qte_c = rs.getDouble("cout_livraison");
+                    String unit_c = rs.getString("id_commercial");
+                    System.out.println("\n Numéro recette : " + id_r + "\n Numéro ingrédient : "	+ id_i + "\n Quantité : "	+ qte_c + " "	+ unit_c + "\n");
+                }
+                return true;
+            } catch (SQLException e)  {
+                return false;
+            }finally {
+                try {
+                    if (ptmt != null)
+                        ptmt.close();
+                    if (conn != null)
+                        conn.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+    }
     public boolean updateComposer (int id_recette, int id_ingredient, double quantite, String unite){
         try {
             String query = "UPDATE composer SET quantite = "+quantite+", unite = " + unite + "WHERE id_recette = "+id_recette +" AND id_ingredient = " + id_ingredient;
